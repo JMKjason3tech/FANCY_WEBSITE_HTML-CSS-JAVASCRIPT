@@ -15,7 +15,7 @@
     top: 0;
     z-index: 999;
 }
-.navbar__container {
+.navbar_container {
     display: flex;
     justify-content: space-between;
     height: 80px;
@@ -25,7 +25,7 @@
     margin:0 auto;
     padding:0 50px;
 }
-#navbar__logo {
+#navbar_logo {
     background-color: #ff8177;
     background-image: linear-gradient(to top, #ff0844 0%, #ffb119 100%);
     background-size: 100%;
@@ -44,18 +44,18 @@
     margin-right: 0.5rem;
 }
 
-.navbar__menu {
+.navbar_menu {
     display: flex;
     align-items: center;
     list-style: none;
     text-align: center;
 }
 
-.navbar__item {
+.navbar_item {
     height: 80px;
 }
 
-.navbar__link {
+.navbar_link {
     color: #fff;
     display: flex;
     align-items: center;
@@ -65,7 +65,7 @@
     height: 100%;
 }
 
-.navbar__btn {
+.navbar_btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -91,7 +91,8 @@
     transition: all 0.3s ease;
 }
 
-.navbar__link:hover {
+.navbar_link:hover {
     color: #f77062;
     transition: all 0.3s ease;
+
 }
